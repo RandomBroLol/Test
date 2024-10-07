@@ -8,13 +8,22 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Your favicon -->
     <style>
         body {
-            padding-top: 56px; /* Space for fixed navbar */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full height */
         }
         .hero {
             background: #007bff;
             color: white;
-            padding: 100px 0;
+            padding: 80px 0; /* Adjusted padding */
             text-align: center;
+            flex: 1; /* Allow hero section to grow */
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px; /* Footer padding */
         }
     </style>
 </head>
@@ -54,7 +63,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer>
         <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
 
