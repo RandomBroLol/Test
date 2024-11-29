@@ -3,53 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Simple Web Page</title>
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Domain Moving</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
             background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
         }
-        header {
+        .message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .redirect-button {
+            padding: 15px 30px;
+            font-size: 18px;
             background-color: #4CAF50;
             color: white;
-            padding: 10px 0;
-            text-align: center;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
         }
-        h1 {
-            margin: 0;
-        }
-        main {
-            margin: 20px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .redirect-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <main>
-        <p>This is an example of a simple HTML page with a favicon and some basic CSS styling. </p>
-    </main>
-
-    <footer>
-        <a>Idk</a>
-    </footer>
-
+    <div class="message">
+        <p>This domain is getting moved to a new location. This page is old.</p>
+        <p>Click the button below to visit the new website.</p>
+    </div>
+    <a href="https://limitsamazingwebsite.pages.dev" class="redirect-button">Go to New Website</a>
 </body>
 </html>
